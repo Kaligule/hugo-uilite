@@ -12,7 +12,7 @@
 
       {{ range $key, $value := $social }}
         <a target="_blank" href="{{ $value }}">
-          <i class="fab fa-{{ $key }}"></i>
+          <i class="{{ $key }}"></i>
         </a>
       {{ end }}
       
